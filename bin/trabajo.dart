@@ -29,4 +29,9 @@ void main(List<String> arguments) {
   print(colores);
   colores.clear();
   print(colores);
+  //ver si existe una clave
+  print('¿el heroe1 contiene la propiedad de realme?');
+  print(heroe1.containsKey('realname'));
+  print('¿el heroe2 contiene la propiedad de realme?');
+  print(heroe2.containsKey('realname'));
 }
